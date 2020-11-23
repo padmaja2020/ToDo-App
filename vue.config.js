@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: 'ToDo-App'
+    publicPath: 'todo'
   }
+
+ 

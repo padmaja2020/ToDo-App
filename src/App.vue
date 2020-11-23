@@ -21,7 +21,7 @@
     <div class="todos" v-if="showTodos()">
       <md-list>
         <md-list-item>
-          <h3>My Todo Tasks</h3>
+          <h3>Todo Tasks</h3>
         </md-list-item>
         <md-list-item v-for="todo in todos" :key="todo.id">
           <input type="checkbox" v-model="todo.completed" />
